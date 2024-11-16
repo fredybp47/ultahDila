@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.4/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="s.css" />
+    <script src="s.js"></script>
+    <title>Special For You</title>
+</head>
+<body>
+    <!-- Loading screen -->
+    <div class="preload"><p>Loading dulu . . .</p></div>
+    
+    <!-- Background -->
+    <div class="bg"></div>
+    
+    <!-- Main Content -->
+    <div class="content">
+        <div class="open">
+            <div>
+                <div class="lope"><i class="love material-icons-sharp"> favorite </i></div>
+                <h3>Pencet Love nya</h3>
+            </div>
+        </div>
+        
+        <div class="main">
+            <div class="foto">
+                <div class="img">
+                    <img src="assets/bk.jpg" class="fotoku" alt="Foto Ulang Tahun" />
+                </div>
+            </div>
+            <div class="hia">
+                <h4 class="hai">Selamat Ulang Tahun!</h4>
+            </div>
+            <p class="pesan">Semoga makin dewasa, selalu bahagia, sukses dalam segala hal.</p>
+            <div class="hadiah"></div>
+            <div class="kado">
+                <img class="om" src="assets/kado_png.png" alt="Kado" />
+                <p>Buka kadonya</p>
+            </div>
+        </div>
+        
+        <!-- Modal -->
+        <div class="modal">
+            <i class="close material-icons-sharp"> close </i>
+            <div class="hadiah">
+                <h3>Aku punya sesuatu buat kamu</h3>
+                <p>Pilih salah satu ya ></p>
+                <div class="pilihkado">
+                    <div>
+                        <img src="assets/kado_png.png" alt="Kado 1" />
+                        <p>1</p>
+                    </div>
+                    <div>
+                        <img src="assets/kado_png.png" alt="Kado 2" />
+                        <p>2</p>
+                    </div>
+                    <div>
+                        <img src="assets/kado_png.png" alt="Kado 3" />
+                        <p>3</p>
+                    </div>
+                    <div>
+                        <img src="assets/kado_png.png" alt="Kado 4" />
+                        <p>4</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Variabel yang perlu diisi
+        var background = "assets/bk.jpg"; // Ganti dengan URL background
+        var foto = "assets/foto1.jpg"; // Ganti dengan URL foto
+        var musik = "https://dekatutorial.github.io/Gellen%20Martadinata%20-%20Selamat%20Ulang%20Tahun.mp3"; // Ganti dengan URL musik
+        var panggilan = "Pibesdey, Sayang 😘 !"; // Ganti dengan ucapan panggilan
+        var ucapan = "              Doa terbaik buat kamu, semoga semua impianmu tercapai. Terima kasih udah mau jadi bagian dari hidup Aku. Love you! 😘 "; // Ganti dengan ucapan ulang tahun
+
+        var hadiah1 = "Sesuatu (Tulis sendiri ya mau apa)";
+        var hadiah2 = "Sesuatu (Tulis sendiri ya mau apa)"
+        var hadiah3 = "Sesuatu (Tulis sendiri ya mau apa)"
+        var hadiah4 = "Sesuatu (Tulis sendiri ya mau apa)"
+
+        var noWhatsapp = "085691116788"; // Ganti dengan nomor WhatsApp jika perlu
+
+        // Inisialisasi DekaTutorial dengan variabel yang sudah diisi
+        DekaTutorial(background, foto, musik, panggilan, ucapan, hadiah1, hadiah2, hadiah3, hadiah4);
+    </script>
+
+    <!-- Blok Nama -->
+    <div class="blok-nama">
+        <p>Made By Fredy</p>
+    </div>
+</body>
+</html>
+</body>
+</html>
